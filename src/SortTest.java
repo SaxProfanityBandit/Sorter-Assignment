@@ -15,7 +15,7 @@ public class SortTest {
             int[] arr2 = {0, 9, 153, 88, -63, 111, 2, 34};
             int[] arr3 = {1000, 0, 48, -1, 546, 89, 534, -1000};
             int[] arr4 = {8, 7, 6, 5, 4, 3, 2, 1};
-            int[] arr5 = {-8, -7, -6, -5, -4, -3, -2, -1};
+            int[] arr5 = {-1, -2, -3, -4, -5, -6, -7, -8};
 
             //Sorting and printing the test arrays above.
             int[] sorted = new int[arr1.length];
