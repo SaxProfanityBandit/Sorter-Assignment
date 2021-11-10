@@ -1,6 +1,6 @@
 public class SortTest {
     public static void main(String[] args) {
-        //Testing Class. Defaults to else behavior if no args entered.
+        //Testing Class. Defaults to else behavior if no args entered from the commandline.
         if (args.length > 0) {
             int[] unsorted = new int[args.length];
             System.out.println("");
