@@ -1,7 +1,7 @@
 public class Sorter {
 
     //As using the built in sort in Java is a bit too easy, writing heapsort in java instead.
-    public static int[] heapSort(int[] unsorted) throws Exception {
+    public static int[] heapSort(int[] unsorted) {
         int[] sorted = new int[unsorted.length];
 
         //Create the heap tree and rearrange the array.
@@ -49,9 +49,4 @@ public class Sorter {
             heapify(arr, n, largest);
         }
     }
-
-    //private siftDown
-
-    
-
 }
